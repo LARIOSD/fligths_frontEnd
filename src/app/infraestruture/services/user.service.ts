@@ -7,7 +7,7 @@ import { IUser } from 'src/app/domain/interfaces/user.interface';
   providedIn: 'root',
 })
 export class UserService {
-  url: string = 'http://192.168.0.15:4002/api/v1';
+  url: string = 'http://localhost:4002/api/v1';
   constructor(private http: HttpClient) {}
 
   readUser(): Observable<IUser[]> {

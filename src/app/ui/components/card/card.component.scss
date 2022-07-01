@@ -1,21 +1,28 @@
 .card {
   background-color: antiquewhite;
-  width: auto;
-  height: 330px;
-  border: 2px solid rgb(230, 179, 179);
   border-radius: 10%;
+  border: 2px solid rgb(230, 179, 179);
   box-shadow: 1px 6px 12px 4px rgb(170, 170, 170);
   display: inline-block;
-  padding: 10px;
+  height: 330px;
   margin: 6px;
+  padding: 10px;
+  width: auto;
   header {
+    text-align: center;
     height: 30%;
     width: 100%;
   }
 
   main {
     height: 30%;
+    text-align: left;
     width: 100%;
+    span {
+      border: 2px solid rgb(230, 179, 179);
+      display: block;
+      width: 100%;
+    }
   }
 
   footer {
