@@ -1,0 +1,25 @@
+.card {
+  background-color: antiquewhite;
+  width: auto;
+  height: 330px;
+  border: 2px solid rgb(230, 179, 179);
+  border-radius: 10%;
+  box-shadow: 1px 6px 12px 4px rgb(170, 170, 170);
+  display: inline-block;
+  padding: 10px;
+  margin: 6px;
+  header {
+    height: 30%;
+    width: 100%;
+  }
+
+  main {
+    height: 30%;
+    width: 100%;
+  }
+
+  footer {
+    height: 40%;
+    width: 100%;
+  }
+}
